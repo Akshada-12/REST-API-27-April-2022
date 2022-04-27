@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testsuite]">
+  <test thread-count="5" name="testcases(failed)">
+    <classes>
+      <class name="restapi.TC05_Delete_Request">
+        <methods>
+          <include name="delete_data"/>
+        </methods>
+      </class> <!-- restapi.TC05_Delete_Request -->
+      <class name="restapi.TC03_Put_Request">
+        <methods>
+          <include name="put_data"/>
+        </methods>
+      </class> <!-- restapi.TC03_Put_Request -->
+      <class name="restapi.TC01_Get_Request">
+        <methods>
+          <include name="get_data"/>
+        </methods>
+      </class> <!-- restapi.TC01_Get_Request -->
+      <class name="restapi.TC04_Patch_Request">
+        <methods>
+          <include name="patch_data"/>
+        </methods>
+      </class> <!-- restapi.TC04_Patch_Request -->
+      <class name="restapi.TC02_Post_Request">
+        <methods>
+          <include name="post_data"/>
+        </methods>
+      </class> <!-- restapi.TC02_Post_Request -->
+    </classes>
+  </test> <!-- testcases(failed) -->
+</suite> <!-- Failed suite [testsuite] -->
